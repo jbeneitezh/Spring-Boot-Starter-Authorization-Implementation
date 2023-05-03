@@ -3,6 +3,14 @@
 This 
 
 ## Configuration
+### Dependency
+
+Import the following dependency in your proyect:
+	<dependency>
+		<groupId>com.jbh</groupId>
+		<artifactId>spring-boot-starter-authorization-implementation</artifactId>
+		<version>${version}</version>
+	</dependency>
 
 ### Data model
 
