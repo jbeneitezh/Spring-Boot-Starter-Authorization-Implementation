@@ -2,17 +2,9 @@
 
 This 
 
-##Configuration
-###Dependency
+## Configuration
 
-Import the following dependency in your proyect:
-	<dependency>
-		<groupId>com.jbh</groupId>
-		<artifactId>spring-boot-starter-authorization-implementation</artifactId>
-		<version>${version}</version>
-	</dependency>
-
-###Data model
+### Data model
 
 It's necesary the existence of 4 tables:
 * roles
@@ -22,7 +14,7 @@ It's necesary the existence of 4 tables:
 
 An example of the implemented data model in mysql is in the folder src/main/resources/mysql_data_model.sql
 
-###application.properties
+### application.properties
 
 It's necesary to provide the next variables:
 * google.clientid. Google Client ID OAuth 2.0 generated from [console cloud from Google](https://console.cloud.google.com/apis/credentials)
